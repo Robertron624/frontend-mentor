@@ -1,13 +1,16 @@
 body {
     background-color: hsl(30, 38%, 92%);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .card {
     display: flex;
     width: auto;
     height: auto    ;
-    margin: 5rem auto 0 auto;
-    max-width: 550px;
+    max-width: 34.375rem;
     --main-green: hsl(158, 36%, 37%);
 }
 
@@ -97,7 +100,7 @@ img.product-mobile {
 }
 
 .buy-button {
-    padding: 15px 25%;
+    padding: 0.938rem 25%;
     background-color: var(--main-green);
     color: white;
     text-decoration: none;
